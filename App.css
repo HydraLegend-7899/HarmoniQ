@@ -1,0 +1,76 @@
+.app {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-container {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  width: 350px;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.album-art {
+  margin-bottom: 15px;
+}
+
+.album-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.song-title {
+  margin: 10px 0;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.progress-container input {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.volume-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.volume-container input {
+  margin-left: 10px;
+}
+
+.like-container {
+  margin-top: 10px;
+}
+
+.like-container button {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
